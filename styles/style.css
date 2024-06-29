@@ -364,7 +364,7 @@ body {
     margin-top: 50px;
 }
 
-.list-mobile-menu__link {
+.list-mobile-menu__item {
     margin-bottom: 32px;
     padding-left: 20px;
     border: 4px solid transparent;
@@ -374,13 +374,13 @@ body {
     letter-spacing: -0.01em;
     color: #1b1c21;
 }
-.list-mobile-menu__link:hover {
+.list-mobile-menu__item:hover {
     border-left-color: #41F6D7;
 }
 
-.list-mobile-menu__link--activated {
-    border-left-color: #41F6D7;
-}
+/*.list-mobile-menu__item--activated {*/
+    /*border-left-color: #41F6D7;*/
+/*}*/
 
 .list-mobile-menu__link {
     color: #1b1c21;
@@ -389,6 +389,7 @@ body {
 
 .list-mobile-menu__link:hover {
     opacity: 0.5;
+    transition-duration: 1s;
 }
 
 .language__input {
