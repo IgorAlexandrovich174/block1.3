@@ -476,7 +476,6 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0 32px;
-    /*margin: 0 -16px;*/
     transition: 0.5s;
 }
 
@@ -486,7 +485,6 @@ body {
     border-radius: 6px;
     margin: 0;
     height: 0;
-    /*display: none;*/
     padding: 0 18px;
     justify-content: space-between;
     align-items: center;
@@ -549,7 +547,6 @@ body {
     padding-left: 7px;
     background: transparent;
     cursor: pointer;
-
 }
 
 .button__text {
@@ -570,7 +567,6 @@ body {
 
 .brands__button img {
     transition: 0.5s;
-
 }
 
 @media screen and (max-width: 1119px) {
@@ -578,8 +574,8 @@ body {
     .brands-slider {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-
     }
+
     .brands-slider .brands-slider__item {
         height: 0;
         opacity: 0;
@@ -625,7 +621,7 @@ body {
         display: block;
     }
 
-    .brands-slider .brands-slider__item{
+    .brands-slider .brands-slider__item {
         height: 71px;
         display: flex;
         opacity: 1;
