@@ -493,6 +493,7 @@ body {
     background: #FFF;
     opacity: 0;
     transition: 0.5s;
+    overflow: hidden;
 }
 
 .brands-slider__item:nth-child(-n+8) {
@@ -547,10 +548,11 @@ body {
     gap: 20px;
     padding-left: 7px;
     background: transparent;
+    cursor: pointer;
 
 }
 
-.brands__text {
+.button__text {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;

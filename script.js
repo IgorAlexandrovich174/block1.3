@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.querySelectorAll(".brands-slider__item").forEach((item)=>{
             item.classList.add('swiper-slide')
         })
-        var swiper = new Swiper(".swiper-container", {
+        let swiper = new Swiper(".swiper-container", {
             slidesPerView: "auto",
             slidesOffsetBefore: 32,
             spaceBetween: 16,
@@ -27,15 +27,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
             },
         });
     }
-
-    // var swiper = new Swiper(".test", {
-    //     slidesPerView: "auto",
-    //     spaceBetween: 30,
-    //     pagination: {
-    //         el: ".swiper-pagination",
-    //         clickable: true,
-    //     },
-    // });
 });
 
 
